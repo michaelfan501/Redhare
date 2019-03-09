@@ -8,8 +8,24 @@ h1, h2{
   line-height: 1.5;
 }
 
+h4{
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
 .container-fluid {
   padding: 0;
+}
+
+.navbar-padding {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.nav-text {
+    font-size: 1.2rem;
 }
 
 #didyouknow {
@@ -24,6 +40,10 @@ h1, h2{
   text-align: center;
 }
 
+#specs {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .feature-icons {
   color: #ff7657;
   padding: 10px 0px;
