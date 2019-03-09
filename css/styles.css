@@ -44,7 +44,18 @@ h4{
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+#contact {
+  background-color: black;
+  padding: 40px 0px;
+  text-align: center;
+  color: white;
+}
 .feature-icons {
   color: #ff7657;
   padding: 10px 0px;
+}
+
+.contact-header {
+  font-size: 2rem;
 }

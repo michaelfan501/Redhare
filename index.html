@@ -16,6 +16,8 @@
 <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+<!-- Custom js -->
+  <script type="text/javascript" src="scripts/mainpage.js"></script>
 </head>
 
 <body>
@@ -38,13 +40,13 @@
         <a class="nav-link nav-text " href="#features">Features</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-text " href="#">Specification</a>
+        <a class="nav-link nav-text " href="#specs">Specification</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-text " href="#">Contact</a>
+        <a class="nav-link nav-text " href="#contact">Contact</a>
       </li>
       <li class="nav-item">
-        <button type="button" class="btn btn-outline-warning nav-text"><i class="fab fa-amazon"></i>  Buy Now</button>
+        <button type="button" class="btn btn-outline-warning nav-text" onclick="openAmazonLink();"><i class="fab fa-amazon"></i>  Buy Now</button>
       </li>
     </ul>
   </div>
@@ -163,7 +165,24 @@
           </tr>
         </tbody>
       </table>
-      <button type="button" class="btn btn-outline-warning btn-block nav-text"><i class="fab fa-amazon"></i>  Buy Now</button>
+      <button type="button" class="btn btn-outline-warning btn-block nav-text" onclick="openAmazonLink();"><i class="fab fa-amazon"></i>  Buy Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact -->
+
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h5 class="contact-header">Redhare Trading Co.</h5>
+        We aim to improve the quality of everyday lives just one helpful gadget at a time!</br>
+        <div>
+          <i class="fas fa-envelope  fa-2x"></i>
+          <a href = "mailto: redharetradingco@gmail.com">redharetradingco@gmail.com</a>
+        </div>
       </div>
     </div>
   </div>
