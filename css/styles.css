@@ -8,6 +8,11 @@ h1, h2{
   line-height: 1.5;
 }
 
+
+h3 {
+  font-weight: 600;
+}
+
 h4{
   font-weight: 600;
   font-size: 1.8rem;
@@ -29,7 +34,7 @@ h4{
 }
 
 #didyouknow {
-  background-color: #b4e9e2;
+  background-color: #defcfc;
   padding: 40px 0px;
   text-align: center;
 }
@@ -47,9 +52,19 @@ h4{
 
 #contact {
   background-color: black;
-  padding: 40px 0px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   text-align: center;
   color: white;
+}
+
+#footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 0.8rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .feature-icons {
   color: #ff7657;
